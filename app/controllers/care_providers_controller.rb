@@ -1,0 +1,2 @@
+class CareProvidersController < ApplicationController
+end
