@@ -3,8 +3,8 @@ class PatientsController < ApplicationController
         before_action :set_patient, only: [:show, :edit, :update, :destroy]
       
         def index 
-           @patient = Pateint.all
-           render json: @patient
+           @patients = Patient.all
+           render json: @patients
         end
       
       
